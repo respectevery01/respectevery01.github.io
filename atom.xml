@@ -6,7 +6,7 @@
   <link href="https://wyt.icu/atom.xml" rel="self"/>
   
   <link href="https://wyt.icu/"/>
-  <updated>2023-10-17T13:06:56.837Z</updated>
+  <updated>2023-10-18T15:30:21.109Z</updated>
   <id>https://wyt.icu/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>What is web3.0</title>
+    <link href="https://wyt.icu/2023/10/18/What-is-web3-0/"/>
+    <id>https://wyt.icu/2023/10/18/What-is-web3-0/</id>
+    <published>2023-10-18T14:34:13.000Z</published>
+    <updated>2023-10-18T15:30:21.109Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Introduction-to-Web3"><a href="#Introduction-to-Web3" class="headerlink" title="Introduction to Web3"></a><strong>Introduction to Web3</strong></h1><h2 id="Early-internet"><a href="#Early-internet" class="headerlink" title="Early internet"></a><strong>Early internet</strong></h2><p>People used to divide internet into web1.0 and web2.0. Now we’re go through web2.0 era.</p><h3 id="Web1-0-read-only-1990-2004"><a href="#Web1-0-read-only-1990-2004" class="headerlink" title="Web1.0: read-only (1990-2004)"></a><strong>Web1.0: read-only (<em>1990-2004</em>)</strong></h3><p>Web 1.0 was predominantly static websites owned by corporations with little to no interaction between users - individuals rarely created content, leading to it being called the read-only web.</p><h3 id="Web-2-0-Reading-and-Writing-2004-present"><a href="#Web-2-0-Reading-and-Writing-2004-present" class="headerlink" title="Web 2.0: Reading and Writing (2004 - present)"></a><strong>Web 2.0: Reading and Writing (<em>2004 - present</em>)</strong></h3><p>The Web 2.0 era began in 2004 with the advent of social media platforms. The web was no longer read-only; it became a read-write web. In addition to providing content to users, Internet companies began to provide platforms to share user-produced content and engage in user interactions. As more and more people went online, a handful of Internet giants began to control the sea of traffic and value on the Web. Web 2.0 also gave rise to advertising-driven profit models. While users can create content, they do not own it or benefit by realizing it.</p><h3 id="Web-3-0-Can-Read-Can-Write-Can-Own"><a href="#Web-3-0-Can-Read-Can-Write-Can-Own" class="headerlink" title="Web 3.0: Can Read - Can Write - Can Own"></a><strong>Web 3.0: Can Read - Can Write - Can Own</strong></h3><p>No longer depend on companies. Who created it who owner.</p><h3 id="What-is-web3-0"><a href="#What-is-web3-0" class="headerlink" title="What is web3.0"></a><em><strong>What is web3.0</strong></em></h3><p>Different ones have different definitions</p><p><a href="https://aws.amazon.com/what-is/web3/?nc1=h_ls">Quoted from AWS</a></p><blockquote><p>Web3 is an umbrella term for technologies such as blockchain that decentralize ownership and control of data on the Internet. Most Internet applications are controlled by centralized entities that determine how end-user data is stored and used.Web3 (also known as Web 3.0, Decentralized Web, or Semantic Web) technologies allow for community-driven projects rather than centralized management structures. In these projects, end-users control the data, determine pricing, contribute directly to the development of the technology, and have a more significant say in the direction of the project. These technologies have mechanisms that automatically regulate how users interact with each other. Therefore, there is no need for a centralized entity to manage these interactions.</p></blockquote><p><a href="https://ethereum.org/zh/web3/">Quoted from Ethereum</a></p><blockquote><p>Web3 has become an all-encompassing term that represents a new and better vision for the Internet. At its core, Web3 is about returning power to users in the form of ownership through blockchain, cryptocurrencies and non-homogenized tokens. A 2020 post on <a href="https://twitter.com/himgajria/status/1266415636789334016">Twitter</a> hit the nail on the head: Web1 was read-only, Web2 read&#x2F;write, and the future Web3 read&#x2F;write&#x2F;own.</p></blockquote><p>web3 is a cutting-edge concept aimed at being able to express oneself freely without regulation. People are free to create their own platform and own it without it being shut down for other reasons. </p><h3 id="Differences-between-web2-and-web3"><a href="#Differences-between-web2-and-web3" class="headerlink" title="Differences between web2 and web3"></a><strong>Differences between web2 and web3</strong></h3><h4 id="Web2-0"><a href="#Web2-0" class="headerlink" title="Web2.0"></a>Web2.0</h4><p>You only have access to the account and not ownership, and the platform can block your account. The income you earn is extracted by the platform, which means that everything you have is dependent on the platform and not something you actually own. For example, you have 10 million followers on TikTok, but those followers don’t belong to you, they belong to the platform. After leaving the platform, your fans will no longer belong to you. But web3 can solve it.</p><h4 id="Web3-0"><a href="#Web3-0" class="headerlink" title="Web3.0"></a>Web3.0</h4><p>Your fans can follow you on the web3 platform and can hold your <u><font color=red>NFT</font></u> (non-fungible tokens), note that <u><font color=red>NFT</font></u>  are not changeable and are stored on the blockchain forever. No one can change it.</p><hr><p>Reference 1: <a href="https://ethereum.org/en/web3/">Ethereum</a><br>Reference 2: <a href="https://aws.amazon.com/what-is/web3/?nc1=h_ls">AWS</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Introduction-to-Web3&quot;&gt;&lt;a href=&quot;#Introduction-to-Web3&quot; class=&quot;headerlink&quot; title=&quot;Introduction to Web3&quot;&gt;&lt;/a&gt;&lt;strong&gt;Introduction to We</summary>
+      
+    
+    
+    
+    <category term="Web3" scheme="https://wyt.icu/categories/Web3/"/>
+    
+    
+    <category term="web3" scheme="https://wyt.icu/tags/web3/"/>
+    
+    <category term="block chain" scheme="https://wyt.icu/tags/block-chain/"/>
+    
+  </entry>
   
   <entry>
     <title>Essay of CET-4 about issue solved</title>
