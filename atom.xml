@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>寻亦见北</title>
+  <title>Jask Don</title>
   
-  
+  <subtitle>a freedom writer</subtitle>
   <link href="https://wyt.icu/atom.xml" rel="self"/>
   
   <link href="https://wyt.icu/"/>
@@ -10,7 +10,7 @@
   <id>https://wyt.icu/</id>
   
   <author>
-    <name>Keith Dong</name>
+    <name>Jask Don</name>
     
   </author>
   
