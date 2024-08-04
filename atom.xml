@@ -6,7 +6,7 @@
   <link href="https://wyt.icu/atom.xml" rel="self"/>
   
   <link href="https://wyt.icu/"/>
-  <updated>2024-04-14T06:02:35.897Z</updated>
+  <updated>2024-08-04T08:58:07.931Z</updated>
   <id>https://wyt.icu/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>What-is-Eid2</title>
+    <link href="https://wyt.icu/2024/08/05/What-is-Eid2/"/>
+    <id>https://wyt.icu/2024/08/05/What-is-Eid2/</id>
+    <published>2024-08-04T16:02:00.000Z</published>
+    <updated>2024-08-04T08:58:07.931Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="What-is-E-ID"><a href="#What-is-E-ID" class="headerlink" title="What is E-ID?"></a>What is E-ID?</h1><p>E-ID is similar to E-CNY. It is an electronic ID card issued by the state, except that the application scenarios are now very limited. And there are very few platforms that E-ID can be tied to these days. Alipay, for example, Users can bind E-ID on top of Alipay. Nonetheless, it is not accepted by mainstream apps, like WeChat, Jitterbug are not willing to accept it, so much so that it is in a very awkward situation. However, it is undeniable that it does achieve a certain degree of convenience. For example, when I stayed at a hotel, there were still some hotels that recognized E-ID. </p><p>So we can learn that E-ID has both benefits and drawbacks.</p><ul><li><p>Advantages: convenient and fast</p></li><li><p>disadvantages: Transmission in clear text, not secure. Limited usage scenarios</p></li></ul><p>In general, E-ID is a new product in the electronic information age, but still faces many problems.</p><h1 id="National-Network-Identity（NID"><a href="#National-Network-Identity（NID" class="headerlink" title="National Network Identity（NID)"></a>National Network Identity（NID)</h1><p>NID may become a replacement for E-ID, i.e. E-ID 2.0. It uses a new method to prevent leakage of information about a user’s E-ID (though I don’t think that’s feasible).  NID generates a kind of netID for registered users that looks like a blockchain public address. Simply put, the ID number is converted into a string of virtual IDs(NET. Nub.)</p><p>At this stage, however, NID is only in gray-scale testing and not in public beta, the apps it supports are still very limited. </p><p>A number of people have also appeared on the Internet to boycott it because, although it adopts the means of voluntary registration, we cannot rule out the possibility that it will force everyone to register in the future. However, it does defend against the breeding of some false information, such as fraudulent information, rumor mongering, and so on. Unruly elements will gradually diminish because of the NID bind. </p><p>Here are some of the comments from the internet:</p><blockquote><p>Did telecom fraud become less frequent after the real-name telephone system?</p></blockquote><blockquote><p>Apply for a dog license to facilitate management In the future, the length of your tongue and the extent of your tail wagging will be regulated accordingly!</p></blockquote><blockquote><p>This really concerns each and every one of us, the end result of this behavior must be no safety for everyone, don’t make the same mistake with the health code.</p></blockquote><blockquote><p>Hundreds of millions of people’s information is being taken and sold </p></blockquote><p>I’ve only excerpted some of the comments and can’t be comprehensive, but as you can see, the majority of people hold an opposing view of NIDs.</p><p>There are good reviews, though, and here are some of them:</p><blockquote><p>The body is not afraid of the shadow slant, I am voluntary anyway, the future account can also be unified management, change the cell phone number of the account is also convenient, I do not think there is any problem</p></blockquote><blockquote><p>This is the equivalent of an encrypted ID, you only need to provide the app with an encrypted ID, called a network number, which is actually good for privacy, and it’s useless for someone else to open a box and open an encrypted ID, and you don’t have to provide the ID to the app’s company, and the company won’t store your identity data, and data leakage won’t be as bad, and it’s still to be seen how effective it is, but it’s only silly to be a fan of what people say, and what people say.</p></blockquote><blockquote><p>I’m in favor of it. Now that there are so many spies, if you want to use Chinese apps, you have to sign up for this one, and no one will be spared.</p></blockquote><blockquote><p>Should come out earlier, otherwise a bunch of people indiscriminate net violence others, publish rumors, this is like a camera, there is a camera you still dare to petty theft?</p></blockquote><p>I don’t know what you all think of this. I’m neutral.</p><p>Here is a widely circulated image</p><p><img src="https://pic.imgdb.cn/item/66af3f54d9c307b7e969538d.jpg" alt="alt NID"></p><p>Overall, the advantages of NIDs are that they provide better protection against the proliferation of fraudulent information and also protect the privacy of citizens. For example, user A can check in the NID to see which applications his ID card is registered for. However, the disadvantage is also very obvious, if the hacker hacks into the background of NID, it will surely get hold of all the citizens’ information. In short, the network is a double-edged sword, NID can never replace the physical ID card, it can only be used as an auxiliary tool to help people solve some urgent problems, but not as a legal document.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;What-is-E-ID&quot;&gt;&lt;a href=&quot;#What-is-E-ID&quot; class=&quot;headerlink&quot; title=&quot;What is E-ID?&quot;&gt;&lt;/a&gt;What is E-ID?&lt;/h1&gt;&lt;p&gt;E-ID is similar to E-CNY. It</summary>
+      
+    
+    
+    
+    <category term="Essay" scheme="https://wyt.icu/categories/Essay/"/>
+    
+    
+    <category term="Essay" scheme="https://wyt.icu/tags/Essay/"/>
+    
+  </entry>
   
   <entry>
     <title>The Internet Era: Where is Knowledge Copyright Heading</title>
