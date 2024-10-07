@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en_us">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Jask Don">
+
+
+    <meta name="subtitle" content="a freedom writer">
+
+
+    <meta name="description" content="get a new point of web3, block chanin and finance!">
+
+
+    <meta name="keywords" content="web3,blockchain,Jask,blog,BTC,ETH,bitcoin,finance">
+
+
+<title>What is E-ID2.0 | Jask Don</title>
+
+
+
+    <link rel="icon" href="/1.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Jask</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Jask</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    var tocbot_timer;
+    var DEPTH_MAX = 6; // 为 6 时展开所有
+    var tocbot_default_config = {
+        tocSelector: '.tocbot-list',
+        contentSelector: '.post-content',
+        headingSelector: 'h1, h2, h3, h4, h5',
+        orderedList: false,
+        scrollSmooth: true,
+        onClick: extend_click,
+    };
+
+    function extend_click() {
+        clearTimeout(tocbot_timer);
+        tocbot_timer = setTimeout(function() {
+            tocbot.refresh(obj_merge(tocbot_default_config, {
+                hasInnerContainers: true
+            }));
+        }, 420); // 这个值是由 tocbot 源码里定义的 scrollSmoothDuration 得来的
+    }
+
+    document.ready(function() {
+        tocbot.init(obj_merge(tocbot_default_config, {
+            collapseDepth: 1
+        }));
+    });
+
+    function expand_toc() {
+        var b = document.querySelector('.tocbot-toc-expand');
+        var expanded = b.getAttribute('data-expanded');
+        expanded ? b.removeAttribute('data-expanded') : b.setAttribute('data-expanded', true);
+        tocbot.refresh(obj_merge(tocbot_default_config, {
+            collapseDepth: expanded ? 1 : DEPTH_MAX
+        }));
+        b.innerText = expanded ? 'Expand all' : 'Collapse all';
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    function obj_merge(target, source) {
+        for (var item in source) {
+            if (source.hasOwnProperty(item)) {
+                target[item] = source[item];
+            }
+        }
+        return target;
+    }
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">What is E-ID2.0</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Jask Don</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">August 4, 2024&nbsp;&nbsp;16:02:00</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/Essay/">Essay</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="What-is-E-ID"><a href="#What-is-E-ID" class="headerlink" title="What is E-ID?"></a>What is E-ID?</h1><p>E-ID is similar to E-CNY. It is an electronic ID card issued by the state, except that the application scenarios are now very limited. And there are very few platforms that E-ID can be tied to these days. Alipay, for example, Users can bind E-ID on top of Alipay. Nonetheless, it is not accepted by mainstream apps, like WeChat, Jitterbug are not willing to accept it, so much so that it is in a very awkward situation. However, it is undeniable that it does achieve a certain degree of convenience. For example, when I stayed at a hotel, there were still some hotels that recognized E-ID. </p>
+<p>So we can learn that E-ID has both benefits and drawbacks.</p>
+<ul>
+<li><p>Advantages: convenient and fast</p>
+</li>
+<li><p>disadvantages: Transmission in clear text, not secure. Limited usage scenarios</p>
+</li>
+</ul>
+<p>In general, E-ID is a new product in the electronic information age, but still faces many problems.</p>
+<h1 id="National-Network-Identity（NID"><a href="#National-Network-Identity（NID" class="headerlink" title="National Network Identity（NID)"></a>National Network Identity（NID)</h1><p>NID may become a replacement for E-ID, i.e. E-ID 2.0. It uses a new method to prevent leakage of information about a user’s E-ID (though I don’t think that’s feasible).  NID generates a kind of netID for registered users that looks like a blockchain public address. Simply put, the ID number is converted into a string of virtual IDs(NET. Nub.)</p>
+<p>At this stage, however, NID is only in gray-scale testing and not in public beta, the apps it supports are still very limited. </p>
+<p>A number of people have also appeared on the Internet to boycott it because, although it adopts the means of voluntary registration, we cannot rule out the possibility that it will force everyone to register in the future. However, it does defend against the breeding of some false information, such as fraudulent information, rumor mongering, and so on. Unruly elements will gradually diminish because of the NID bind. </p>
+<p>Here are some of the comments from the internet:</p>
+<blockquote>
+<p>Did telecom fraud become less frequent after the real-name telephone system?</p>
+</blockquote>
+<blockquote>
+<p>Apply for a dog license to facilitate management In the future, the length of your tongue and the extent of your tail wagging will be regulated accordingly!</p>
+</blockquote>
+<blockquote>
+<p>This really concerns each and every one of us, the end result of this behavior must be no safety for everyone, don’t make the same mistake with the health code.</p>
+</blockquote>
+<blockquote>
+<p>Hundreds of millions of people’s information is being taken and sold </p>
+</blockquote>
+<p>I’ve only excerpted some of the comments and can’t be comprehensive, but as you can see, the majority of people hold an opposing view of NIDs.</p>
+<p>There are good reviews, though, and here are some of them:</p>
+<blockquote>
+<p>The body is not afraid of the shadow slant, I am voluntary anyway, the future account can also be unified management, change the cell phone number of the account is also convenient, I do not think there is any problem</p>
+</blockquote>
+<blockquote>
+<p>This is the equivalent of an encrypted ID, you only need to provide the app with an encrypted ID, called a network number, which is actually good for privacy, and it’s useless for someone else to open a box and open an encrypted ID, and you don’t have to provide the ID to the app’s company, and the company won’t store your identity data, and data leakage won’t be as bad, and it’s still to be seen how effective it is, but it’s only silly to be a fan of what people say, and what people say.</p>
+</blockquote>
+<blockquote>
+<p>I’m in favor of it. Now that there are so many spies, if you want to use Chinese apps, you have to sign up for this one, and no one will be spared.</p>
+</blockquote>
+<blockquote>
+<p>Should come out earlier, otherwise a bunch of people indiscriminate net violence others, publish rumors, this is like a camera, there is a camera you still dare to petty theft?</p>
+</blockquote>
+<p>I don’t know what you all think of this. I’m neutral.</p>
+<p>Here is a widely circulated image</p>
+<p><img src="https://pic.imgdb.cn/item/66af3f54d9c307b7e969538d.jpg" alt="alt NID"></p>
+<p>Overall, the advantages of NIDs are that they provide better protection against the proliferation of fraudulent information and also protect the privacy of citizens. For example, user A can check in the NID to see which applications his ID card is registered for. However, the disadvantage is also very obvious, if the hacker hacks into the background of NID, it will surely get hold of all the citizens’ information. In short, the network is a double-edged sword, NID can never replace the physical ID card, it can only be used as an auxiliary tool to help people solve some urgent problems, but not as a legal document.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Jask Don</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://wyt.icu/2024/08/05/What-is-Eid2/">https://wyt.icu/2024/08/05/What-is-Eid2/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span><strong>Every dog has his day </strong></span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/Essay/"># Essay</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2024/08/07/Blockchain-and-Logistics/">Blockchain and Logistics</a>
+            
+            
+            <a class="next" rel="next" href="/2024/04/14/The-Internet-Era-Where-is-Knowledge-Copyright-Heading/">The Internet Era: Where is Knowledge Copyright Heading</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Jask Don | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>

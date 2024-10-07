@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en_us">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Jask Don">
+
+
+    <meta name="subtitle" content="a freedom writer">
+
+
+    <meta name="description" content="get a new point of web3, block chanin and finance!">
+
+
+    <meta name="keywords" content="web3,blockchain,Jask,blog,BTC,ETH,bitcoin,finance">
+
+
+<title>Essay of CET-4 about issue solved | Jask Don</title>
+
+
+
+    <link rel="icon" href="/1.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Jask</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Jask</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    var tocbot_timer;
+    var DEPTH_MAX = 6; // 为 6 时展开所有
+    var tocbot_default_config = {
+        tocSelector: '.tocbot-list',
+        contentSelector: '.post-content',
+        headingSelector: 'h1, h2, h3, h4, h5',
+        orderedList: false,
+        scrollSmooth: true,
+        onClick: extend_click,
+    };
+
+    function extend_click() {
+        clearTimeout(tocbot_timer);
+        tocbot_timer = setTimeout(function() {
+            tocbot.refresh(obj_merge(tocbot_default_config, {
+                hasInnerContainers: true
+            }));
+        }, 420); // 这个值是由 tocbot 源码里定义的 scrollSmoothDuration 得来的
+    }
+
+    document.ready(function() {
+        tocbot.init(obj_merge(tocbot_default_config, {
+            collapseDepth: 1
+        }));
+    });
+
+    function expand_toc() {
+        var b = document.querySelector('.tocbot-toc-expand');
+        var expanded = b.getAttribute('data-expanded');
+        expanded ? b.removeAttribute('data-expanded') : b.setAttribute('data-expanded', true);
+        tocbot.refresh(obj_merge(tocbot_default_config, {
+            collapseDepth: expanded ? 1 : DEPTH_MAX
+        }));
+        b.innerText = expanded ? 'Expand all' : 'Collapse all';
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    function obj_merge(target, source) {
+        for (var item in source) {
+            if (source.hasOwnProperty(item)) {
+                target[item] = source[item];
+            }
+        }
+        return target;
+    }
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Essay of CET-4 about issue solved</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Jask Don</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">September 24, 2023&nbsp;&nbsp;14:04:10</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/English-learning/">English learning</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="First-of-all"><a href="#First-of-all" class="headerlink" title="First of all"></a>First of all</h1><p>As we all konw, CET-4 is a considerably important test for our undergraduates. I’m about to give you some suggestions for CET-4’s essay about issue sloved.</p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>In the CET-4 test, there are more types of compositions. They are issue sloved, opinion selection, interpretation phenomenon, and some others, but mojar of compositions are 3 types. Okay, let’s start isuue solved.</p>
+<h3 id="Ways"><a href="#Ways" class="headerlink" title="Ways"></a>Ways</h3><h4 id="Reference-from-Chatgpt"><a href="#Reference-from-Chatgpt" class="headerlink" title="Reference from Chatgpt"></a>Reference from Chatgpt</h4><hr>
+<blockquote>
+<p><strong>Dirctions</strong>: For this part, you allowed 30 minutes to write a short essay on the importance of reading ability and how to develop it. You should write at least 120 words but no more than 150 words.</p>
+</blockquote>
+<hr>
+<p>According to this subject. We can get information that it is an issue solved. Therefore, what should we write this composition? Following the some advice in Chatgpt. (It will be too complicated to ctrlor)</p>
+<blockquote>
+<p>Certainly, here are some suggestions to expand and enhance your essay on the importance of reading ability and how to develop it:</p>
+<ol>
+<li><strong>Provide Real-Life Examples</strong>: Include anecdotes or examples of individuals who have benefited significantly from their reading abilities. This could be a famous personality, a historical figure, or even a personal experience if applicable.</li>
+<li><strong>Highlight the Benefits</strong>: Elaborate further on the specific benefits of reading ability. Discuss how it can improve one’s problem-solving skills, empathy, and even mental health. Show how it’s not just about acquiring information but also about personal growth.</li>
+<li><strong>Address Challenges</strong>: Mention common challenges people face in developing reading habits, such as distractions, time constraints, or lack of interest. Offer strategies to overcome these obstacles, like setting aside dedicated reading time or exploring various genres.</li>
+<li><strong>Emphasize Lifelong Learning</strong>: Stress that reading is not limited to formal education but is a skill that continues to be valuable throughout one’s life. Encourage the idea that it’s never too late to start or improve one’s reading ability.</li>
+<li><strong>Discuss Digital Reading</strong>: In today’s digital age, acknowledge the shift towards online content and e-books. Explain how individuals can adapt their reading habits to this digital landscape while still reaping the benefits.</li>
+<li><strong>Promote a Diverse Reading Diet</strong>: Emphasize the importance of reading various types of materials, including fiction, non-fiction, newspapers, and academic articles. This diversity can help individuals become more well-rounded readers.</li>
+<li><strong>Mention Resources</strong>: Suggest resources like libraries, book clubs, and online platforms where individuals can find reading material and engage with like-minded readers.</li>
+<li><strong>Include a Personal Touch</strong>: If you have a personal story related to the topic, share it to make the essay more relatable and engaging.</li>
+<li><strong>Summarize Key Points</strong>: In your conclusion, reiterate the main points of the essay and emphasize the overarching message about the significance of reading ability.</li>
+</ol>
+</blockquote>
+<p>Therefore, it returned a composition.</p>
+<blockquote>
+<p>Title: The Significance of Reading Ability and How to Cultivate It<br>  Reading is an indispensable skill that serves as a cornerstone of lifelong learning and personal development. It is the gateway to acquiring knowledge, expanding vocabulary, and enhancing critical thinking abilities. In today’s information-driven world, the importance of reading ability cannot be overstated.<br>  First and foremost, reading is the primary means of accessing information. Whether it’s for academic research, professional growth, or personal enrichment, the ability to read effectively is essential. Furthermore, strong reading skills empower individuals to communicate more effectively, both in writing and in spoken language. A rich vocabulary and comprehension of various writing styles are invaluable assets in any profession.<br>  To develop and nurture reading ability, one must establish a reading routine. Start by choosing books or materials that align with your interests and gradually challenge yourself with more diverse genres. Reading regularly not only improves fluency but also broadens your horizons. Additionally, actively engaging with the material through highlighting, taking notes, or discussing it with others enhances comprehension and retention.<br>  In conclusion, reading is the key to unlocking a world of knowledge and personal growth. By cultivating a habit of reading and actively engaging with the material, individuals can harness the power of this essential skill and embark on a lifelong journey of learning and self-improvement.</p>
+</blockquote>
+<p>It is difficulty for us to compose this essay like this way. Therefore, I will tell you a simple way to write this.</p>
+<h4 id="Note-of-me"><a href="#Note-of-me" class="headerlink" title="Note of me"></a>Note of me</h4><p>We have just three way to compose it. </p>
+<ul>
+<li>It is an omnipotent stence that with the rapid development of <font color=red><strong>education, society, economy, and etc…</strong></font>, it is of great necessity for <font color=blue><strong>us, people, undergraduates</strong></font> to develop their reading ability. </li>
+<li>When we write this, we can write the following solutions could account for this <font color=green><strong>problem, issue, phenomenon</strong></font>. Actually it just addmits us say superfluous words.</li>
+<li>Then we can write our main point. “First and foremost, there is no doubt that we could <u>read more books on profession</u>. Based on a most recent survey, a majority of successful social elites admit that they prefer reading more English books.</li>
+<li>“Furthermore, it is beneficial for undergraduates to access much knowledge in books.” It is as the second point.</li>
+<li>Of course, it do not enough to clarify our points. So we need to use an omnipotent proverb. <font color=red>“Where ther is a will, there is a way. Where there are books, there is knowledge.”</font></li>
+<li>“Therefore, our reading ability need to improve.” At last, we have written the second point.</li>
+<li>Now we start write the last point. “Last but not least, no one can deny that it is high time that <u>we can access more information in books.”</u></li>
+<li>And next we can highlight this last point that only in this way, can we access more couldn’t get in class. </li>
+<li>In the last paragraph, we can make a conclusion to underline the main point how to develop it. “In the word, it is considerably clear that we should promote our reading ability. If we try our almost to develop our reading ability, the future of our lives will be both proming and rosy.”</li>
+</ul>
+<h1 id="End"><a href="#End" class="headerlink" title="End"></a>End</h1><p>From this way, you can clearly know how to write issue solved. It is very easy.<br>Let’s look at the full composition.</p>
+<hr>
+<blockquote>
+<p>With the rapid development of education, it is of great necessity for undergraduates to develop their reading ability. The following solutions could account for this issue.<br>First and foremost, there is no doubt that we could read more books on the profession. Based on a most recent survey, a majority of successful social elites admit that they prefer reading more English books.<br>Furthermore, it is beneficial for undergraduates to access much knowledge in books. Where there is a will, there is a way. Where there are books, there is knowledge. Therefore, our reading ability needs to improve.<br>Last but not least, no one can deny that it is high time that we can access more information in books. only in this way, can we access more couldn’t get in class.<br>In the word, it is considerably clear that we should promote our reading ability. If we try our almost to develop our reading ability, the future of our lives will be both promising and rosy.</p>
+</blockquote>
+<p>If you have other questions, please email me.<br>email: <a href="mailto:&#x64;&#111;&#x6e;&#103;&#x6b;&#101;&#105;&#116;&#104;&#x36;&#64;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x64;&#111;&#x6e;&#103;&#x6b;&#101;&#105;&#116;&#104;&#x36;&#64;&#109;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a><br>Thanks!!!</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Jask Don</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://wyt.icu/2023/09/24/Essay-of-CET-4-about-issue-solved/">https://wyt.icu/2023/09/24/Essay-of-CET-4-about-issue-solved/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span><strong>Every dog has his day </strong></span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/CET-4/"># CET-4</a>
+                    
+                        <a href="/tags/Essay/"># Essay</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2023/10/19/What-is-web3-0/">What is web3.0</a>
+            
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Jask Don | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>

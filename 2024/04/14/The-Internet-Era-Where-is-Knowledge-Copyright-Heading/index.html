@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en_us">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Jask Don">
+
+
+    <meta name="subtitle" content="a freedom writer">
+
+
+    <meta name="description" content="get a new point of web3, block chanin and finance!">
+
+
+    <meta name="keywords" content="web3,blockchain,Jask,blog,BTC,ETH,bitcoin,finance">
+
+
+<title>The Internet Era: Where is Knowledge Copyright Heading | Jask Don</title>
+
+
+
+    <link rel="icon" href="/1.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Jask</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Jask</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    var tocbot_timer;
+    var DEPTH_MAX = 6; // 为 6 时展开所有
+    var tocbot_default_config = {
+        tocSelector: '.tocbot-list',
+        contentSelector: '.post-content',
+        headingSelector: 'h1, h2, h3, h4, h5',
+        orderedList: false,
+        scrollSmooth: true,
+        onClick: extend_click,
+    };
+
+    function extend_click() {
+        clearTimeout(tocbot_timer);
+        tocbot_timer = setTimeout(function() {
+            tocbot.refresh(obj_merge(tocbot_default_config, {
+                hasInnerContainers: true
+            }));
+        }, 420); // 这个值是由 tocbot 源码里定义的 scrollSmoothDuration 得来的
+    }
+
+    document.ready(function() {
+        tocbot.init(obj_merge(tocbot_default_config, {
+            collapseDepth: 1
+        }));
+    });
+
+    function expand_toc() {
+        var b = document.querySelector('.tocbot-toc-expand');
+        var expanded = b.getAttribute('data-expanded');
+        expanded ? b.removeAttribute('data-expanded') : b.setAttribute('data-expanded', true);
+        tocbot.refresh(obj_merge(tocbot_default_config, {
+            collapseDepth: expanded ? 1 : DEPTH_MAX
+        }));
+        b.innerText = expanded ? 'Expand all' : 'Collapse all';
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    function obj_merge(target, source) {
+        for (var item in source) {
+            if (source.hasOwnProperty(item)) {
+                target[item] = source[item];
+            }
+        }
+        return target;
+    }
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">The Internet Era: Where is Knowledge Copyright Heading</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Jask Don</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">April 14, 2024&nbsp;&nbsp;14:01:48</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/Web3/">Web3</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>With the rapid development and widespread adoption of the Internet, the ways in which knowledge, information, and content are disseminated are undergoing profound changes. This transformation not only poses new challenges and issues for knowledge copyright but also provides unprecedented opportunities for the dissemination and sharing of knowledge. Against this backdrop, the rise of artificial intelligence has become a focal point of attention for creators and intellectual property rights holders. However, while artificial intelligence has its unique advantages and promising applications, it also presents certain limitations and challenges. This article will begin with an exploration of artificial intelligence, introducing the solutions and applications of the Story Protocol.</p>
+<h2 id="Opportunities-in-the-Age-of-Artificial-Intelligence"><a href="#Opportunities-in-the-Age-of-Artificial-Intelligence" class="headerlink" title="Opportunities in the Age of Artificial Intelligence"></a>Opportunities in the Age of Artificial Intelligence</h2><p><strong>Creative Design with Generative AI</strong></p>
+<p>Generative AI, such as Midjourney, utilizes advanced algorithms and models to generate images and designs that meet user expectations based on provided descriptions. Here are some specific application scenarios:</p>
+<ol>
+<li>Personalized Design and Creative Generation: Generative AI can quickly produce images, illustrations, or designs that meet user expectations based on their descriptions and requirements, significantly improving the efficiency and quality of personalized design.</li>
+<li>Artistic Creation and Innovation: Artists and designers can utilize generative AI for artistic creation, exploring and experimenting with new artistic styles and forms of expression.</li>
+<li>Product Design and Simulation: In the process of product design and development, generative AI can assist designers and engineers in rapidly generating and simulating design proposals and effects, accelerating the product development cycle.</li>
+</ol>
+<p><strong>Document Processing and Creation with Text-based AI</strong></p>
+<p>Text-based AI, such as ChatGPT-4.0, possesses powerful natural language processing capabilities, allowing it to derive, adapt, and summarize content based on user-provided documents, significantly enhancing the efficiency and quality of document processing and creation. Here are some specific application scenarios:</p>
+<ol>
+<li>Document Derivation and Adaptation: Text-based AI can generate new content and versions based on existing documents and materials, providing creators with more inspiration and options.</li>
+<li>Document Summarization and Extraction: When dealing with a large volume of documents and materials, text-based AI can automatically summarize and extract key information and viewpoints, helping users quickly access and understand the content.</li>
+<li>Writing Assistant and Editing Tools: Text-based AI can serve as a writing assistant and editing tool, offering writing suggestions, grammar checks, and content optimization, assisting users in improving writing quality and efficiency.</li>
+</ol>
+<h2 id="Challenges-in-the-Age-of-Artificial-Intelligence"><a href="#Challenges-in-the-Age-of-Artificial-Intelligence" class="headerlink" title="Challenges in the Age of Artificial Intelligence"></a>Challenges in the Age of Artificial Intelligence</h2><p>With the rapid development and widespread adoption of artificial intelligence technology, especially the extensive application of generative AI in the fields of creation and design, intellectual property issues are becoming increasingly prominent. The production capacity of AI is influenced by large models, and there are numerous similar or identical AI models on the market, posing serious challenges to the intellectual property rights of creators.</p>
+<p><strong>Issues of Model Sharing and Misuse</strong></p>
+<p>Model Misuse and Repetitive Use: Due to the existence of numerous identical or similar AI models on the market, models created by creators can easily be misused or reused by others. For example, a work created by creator A on a certain platform is transformed into an NFT and uploaded to OpenSea, then purchased by user B and resold at a higher price on OpenSea. At this point, user C might screenshot and save the NFT and mint it into their own NFT, which seriously infringes upon the intellectual property rights of the creator.</p>
+<p><strong>NFT and Intellectual Property Protection</strong></p>
+<p>Authenticity and Uniqueness of NFTs: While NFT technology can provide unique identity and ownership proof for digital artworks, there still exist issues of NFTs being copied, counterfeited, or misused in practical applications. Ensuring the authenticity and uniqueness of NFTs, as well as effectively protecting the intellectual property rights of creators, is an urgent problem that needs to be addressed.</p>
+<p>All the aforementioned issues are challenges we are currently facing in the Internet era. So, how can we address these problems?</p>
+<p>Blockchain technology may be the best solution to these issues. Due to its characteristics of decentralization, immutability, and transparency, blockchain technology can provide a more secure, transparent, and reliable protection mechanism for intellectual property rights.</p>
+<hr>
+<h1 id="Story-Protocol-could-potentially-become-the-ultimate-weapon-to-solve-this-problem"><a href="#Story-Protocol-could-potentially-become-the-ultimate-weapon-to-solve-this-problem" class="headerlink" title="Story Protocol could potentially become the ultimate weapon to solve this problem"></a>Story Protocol could potentially become the ultimate weapon to solve this problem</h1><p><em>The Programmable IP layer built for the age of AI</em></p>
+<p><strong>What is Programmable IP?</strong></p>
+<ul>
+<li>Register an ERC-721 NFT as an IP Asset</li>
+<li>Each IP Asset is also associated with an ERC-6551 Token Bound Account — IPA (IP Account)</li>
+</ul>
+<p><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*XJJmirWdU5VfOAJ2" alt="typical example"></p>
+<p>Is Story Protocol just that? Actually, it’s much more than that.</p>
+<p>It is also divided into three modules:</p>
+<ol>
+<li>License Module: Facilitates easy adaptation of IP</li>
+<li>Royalty Module: Automates capital interest sharing</li>
+<li>Dispute Module: Allows appeals for non-compliant assets</li>
+</ol>
+<p>I believe you have already read my previous <a target="_blank" rel="noopener" href="https://medium.com/@dongkeith6/story-protocol%E7%82%B9%E7%87%83%E9%93%BE%E4%B8%8Aip%E6%96%B0%E7%83%AD%E6%BD%AE-5f3b9dd59527">article</a> and have a basic understanding of Story Protocol. I won’t dwell on it further here. In this article, I will delve into its specific use cases.</p>
+<p>I hope to provide some inspiration for developers!</p>
+<hr>
+<p>The following is for reference only. Please stay tuned for specific use cases when the testnet goes live!</p>
+<p>Use Cases<br>One-Stop Service</p>
+<p>Currently, SP only supports registering existing NFTs as IPAs on the development network and does not directly support “one-stop” minting of NFTs and registering IPAs.</p>
+<p>Such one-stop services may be supported in the future.</p>
+<p>Company-Level IP</p>
+<p>Registering a single NFT obviously cannot meet the needs of large clients. Below is a comparison of the registration processes:</p>
+<p>Individual Registering IP</p>
+<ul>
+<li>Contract Address</li>
+<li>Token ID</li>
+</ul>
+<p>Company Registering IP</p>
+<ul>
+<li>Contract Address</li>
+</ul>
+<p>It is clear that individual registration of IP requires providing a Token ID, and individuals generally do not have the time or technical expertise to create separate contracts for their IP. This may expose individual IP to risks. Although individuals may not mind, large companies definitely would.</p>
+<p>Therefore, company-level IP registration becomes a solution to such issues. Companies can easily create their own smart contracts and register them as IPAs, and all NFTs under this contract belong to the company’s IP assets.</p>
+<p>The benefits of this approach are also reflected in the dispute module. Using this model, SP can easily handle IP disputes between large clients, reducing arbitration costs.</p>
+<p>Of course, the above is just my opinion, and we will have to wait for the product to go live for specifics.</p>
+<p>(Chinese Version: <a target="_blank" rel="noopener" href="https://mirror.xyz/0x53A0Fc074E31068CFdBD73B756458546274fEa97/a1q15FNbuWnsYbAeDSBUi1a68rZjsugU8zIXwV0EHB8">https://mirror.xyz/0x53A0Fc074E31068CFdBD73B756458546274fEa97/a1q15FNbuWnsYbAeDSBUi1a68rZjsugU8zIXwV0EHB8</a>)</p>
+<hr>
+<h2 id="Useful-Links"><a href="#Useful-Links" class="headerlink" title="Useful Links"></a>Useful Links</h2><p>Official Website: <a target="_blank" rel="noopener" href="https://www.storyprotocol.xyz/">https://www.storyprotocol.xyz/</a></p>
+<p>Discord: <a target="_blank" rel="noopener" href="https://discord.gg/storyprotocol">https://discord.gg/storyprotocol</a></p>
+<p>Twitter&#x2F;X: <a target="_blank" rel="noopener" href="https://x.com/StoryProtocol"><a target="_blank" rel="noopener" href="https://x.com/StoryProtocol">https://x.com/StoryProtocol</a></a></p>
+<p>Official Documentation: <a target="_blank" rel="noopener" href="https://docs.storyprotocol.xyz/docs/what-is-story-protocol">https://docs.storyprotocol.xyz/docs/what-is-story-protocol</a></p>
+<p>Choricles Commemorative NFT Contract: 0xbf2575341e0882bbf6ca8769f39ee435fad8ee8d</p>
+<p>Claim Link 1: <a target="_blank" rel="noopener" href="https://app.manifold.xyz/c/story-protocol-chronicles">https://app.manifold.xyz/c/story-protocol-chronicles</a></p>
+<p>Claim Link 2: <a target="_blank" rel="noopener" href="https://app.manifold.xyz/c/story-protocol-chronicles-2">https://app.manifold.xyz/c/story-protocol-chronicles-2</a></p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Jask Don</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://wyt.icu/2024/04/14/The-Internet-Era-Where-is-Knowledge-Copyright-Heading/">https://wyt.icu/2024/04/14/The-Internet-Era-Where-is-Knowledge-Copyright-Heading/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span><strong>Every dog has his day </strong></span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/web3/"># web3</a>
+                    
+                        <a href="/tags/blockchain/"># blockchain</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+                <a class="prev" rel="prev" href="/2024/08/05/What-is-Eid2/">What is E-ID2.0</a>
+            
+            
+            <a class="next" rel="next" href="/2023/10/19/What-is-web3-0/">What is web3.0</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Jask Don | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
