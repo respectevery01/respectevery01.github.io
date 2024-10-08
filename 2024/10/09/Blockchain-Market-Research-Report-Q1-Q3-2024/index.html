@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en_us">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Jask Don">
+
+
+    <meta name="subtitle" content="a freedom writer">
+
+
+    <meta name="description" content="get a new point of web3, block chanin and finance!">
+
+
+    <meta name="keywords" content="web3,blockchain,Jask,blog,BTC,ETH,bitcoin,finance">
+
+
+<title>Blockchain Market Research Report Q1-Q3 2024 | Jask Don</title>
+
+
+
+    <link rel="icon" href="/1.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Jask Don" type="application/atom+xml">
+</head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Jask</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Jask</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    var tocbot_timer;
+    var DEPTH_MAX = 6; // 为 6 时展开所有
+    var tocbot_default_config = {
+        tocSelector: '.tocbot-list',
+        contentSelector: '.post-content',
+        headingSelector: 'h1, h2, h3, h4, h5',
+        orderedList: false,
+        scrollSmooth: true,
+        onClick: extend_click,
+    };
+
+    function extend_click() {
+        clearTimeout(tocbot_timer);
+        tocbot_timer = setTimeout(function() {
+            tocbot.refresh(obj_merge(tocbot_default_config, {
+                hasInnerContainers: true
+            }));
+        }, 420); // 这个值是由 tocbot 源码里定义的 scrollSmoothDuration 得来的
+    }
+
+    document.ready(function() {
+        tocbot.init(obj_merge(tocbot_default_config, {
+            collapseDepth: 1
+        }));
+    });
+
+    function expand_toc() {
+        var b = document.querySelector('.tocbot-toc-expand');
+        var expanded = b.getAttribute('data-expanded');
+        expanded ? b.removeAttribute('data-expanded') : b.setAttribute('data-expanded', true);
+        tocbot.refresh(obj_merge(tocbot_default_config, {
+            collapseDepth: expanded ? 1 : DEPTH_MAX
+        }));
+        b.innerText = expanded ? 'Expand all' : 'Collapse all';
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    function obj_merge(target, source) {
+        for (var item in source) {
+            if (source.hasOwnProperty(item)) {
+                target[item] = source[item];
+            }
+        }
+        return target;
+    }
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">Blockchain Market Research Report Q1-Q3 2024</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Jask Don</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">October 8, 2024&nbsp;&nbsp;20:30:14</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/Web3/">Web3</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <h1 id="Blockchain-Industry-Financing-and-Market-Dynamics-Research-Report-2024"><a href="#Blockchain-Industry-Financing-and-Market-Dynamics-Research-Report-2024" class="headerlink" title="Blockchain Industry Financing and Market Dynamics Research Report 2024"></a>Blockchain Industry Financing and Market Dynamics Research Report 2024</h1><h2 id="I-Report-Overview"><a href="#I-Report-Overview" class="headerlink" title="I. Report Overview"></a>I. Report Overview</h2><p>2024 was a year of rapid growth and adjustment in the blockchain industry, with the financing market evolving in response to technological innovations, market price volatility, and changes in the macroeconomic environment. Bitcoin and ethereum reached all-time highs in March 2024, followed by dramatic market volatility. Against this backdrop, venture capital (VC) financing activities also exhibit a unique rhythm, demonstrating the lag effect between market sentiment and investment decisions. By analyzing the financing data and quarterly performance of different sectors, it is possible to reveal the investment trends, technological advances, and future development potential of the blockchain industry.</p>
+<h2 id="II-Financing-data-and-project-distribution-analysis"><a href="#II-Financing-data-and-project-distribution-analysis" class="headerlink" title="II. Financing data and project distribution analysis"></a>II. Financing data and project distribution analysis</h2><p>As of September 5, 2024, a total of 395 blockchain financing projects have been disclosed, covering a wide range of segments such as Artificial Intelligence (AI), Decentralized Finance (DeFi), Chain Tour (GameFi), Layer1 and Layer2, and so on. Below is the distribution of the total amount of financing and the number of projects in each category:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Total financing ($ million)</th>
+<th>Percentage (%)</th>
+<th>Number</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AI</td>
+<td>39787</td>
+<td>13%</td>
+<td>51</td>
+</tr>
+<tr>
+<td>DeFi</td>
+<td>89505</td>
+<td>29%</td>
+<td>167</td>
+</tr>
+<tr>
+<td>Layer1</td>
+<td>71648</td>
+<td>23%</td>
+<td>31</td>
+</tr>
+<tr>
+<td>Layer2</td>
+<td>54918</td>
+<td>17%</td>
+<td>46</td>
+</tr>
+<tr>
+<td>GameFi</td>
+<td>56034</td>
+<td>18%</td>
+<td>100</td>
+</tr>
+</tbody></table>
+<h2 id="III-Trends-in-quarterly-financing-and-number-of-projects"><a href="#III-Trends-in-quarterly-financing-and-number-of-projects" class="headerlink" title="III. Trends in quarterly financing and number of projects"></a>III. Trends in quarterly financing and number of projects</h2><ol>
+<li><p><strong>AI: continuous growth and promising investment prospects</strong><br>AI is the highlight of financing in the blockchain field in 2024, with the financing amount and the number of projects showing a trend of continuous growth. Specifically, the number of investors in the AI field has gradually increased, with the financing amount growing from USD 89.87 million in Q1 to USD 175.1 million in Q3, and the number of projects increasing from 15 to 19. This growth trend reflects the great potential of the deep integration of blockchain and AI technology. the application of AI in decentralized finance, automated smart contracts, and prediction markets has led to the increasing willingness of VCs to invest in this field. It is expected that AI will become a key driver in the blockchain ecosystem in the future and continue to attract a large amount of funds and resources.</p>
+</li>
+<li><p><strong>DeFi: highest market share, but slowing growth momentum</strong><br>DeFi projects dominate the blockchain funding market with a 29% share, raising a total of $89.505 million. However, in terms of quarterly trends, the total amount of financing and the number of projects in DeFi peaked in Q1, and then gradually declined.In Q1, the amount of financing was $348.74 million and the number of projects was 59, while in Q3, the amount of financing dropped to $220.30 million and the number of projects decreased to 43.The DeFi market experienced explosive growth from 2020 to 2023, but the 2024 data suggests that VC investors are beginning to evaluate the business models and sustainability of DeFi projects more critically. Nonetheless, DeFi remains one of the most mature application areas of blockchain technology and may attract investment again in the future through technological innovations such as emerging synthetic assets, decentralized insurance, and automated market making.</p>
+</li>
+<li><p><strong>GameFi: early boom, Q3 pullback</strong><br>GameFi had a strong start to 2024, with Q1 and Q2 funding totaling $258.17 million and $184.4 million, with 36 and 44 projects, respectively. However, entering Q3, GameFi’s market heated up significantly, with financing amounting to only $117.77 million and the number of projects dropping to 20. This change reflects the high volatility of the chain game market. Although chain games have great potential to attract users and funding, challenges to their business model (e.g., low user retention rate, game sustainability issues) also made investors become more cautious in Q3. The future performance of GameFi will depend on its ability to realize stronger user stickiness and innovative game economy system.</p>
+</li>
+<li><p><strong>Layer1: funding peak in Q2, sharp drop in Q3</strong><br>Layer1 project attracted a large amount of funds in Q2, with the financing amount reaching $537.98 million, a significant increase from $166 million in Q1. However, in Q3, funding plummeted to $12.5 million, and the number of projects dropped from 16 in Q2 to 2. The Layer1 project, as the infrastructure of blockchain technology, relies on large-scale technology innovation and ecosystem building. Therefore, the outburst of financing in Q2 may be related to the release of major projects or technological breakthroughs, while the sharp drop in Q3 shows that the market has entered a period of observation and adjustment after significant progress.The high threshold of Layer1 technology makes its financing volatile, but in the long run, it is still the core driving force for the development of the blockchain industry.</p>
+</li>
+<li><p><strong>Layer2: Stable Development, Slower Growth Rate</strong><br>The financing amount of Layer2 projects gradually decreased after reaching $351.8 million in Q1, with Q2 and Q3 financing amounting to $128.28 million and $69.1 million respectively. Although the number of projects is relatively stable, the decline in financing scale shows that the market demand for Layer2 scalability solutions is gradually stabilizing.Layer2 solutions are designed to enhance the scalability and transaction efficiency of blockchain, which is one of the key technological directions in the blockchain industry at present. Despite the decrease in financing in the short term, the practicality and importance of Layer2 technology determines that it will continue to be developed in the long term in the future.</p>
+</li>
+</ol>
+<p>Fourth, the relationship between market prices and financing trends<br>The prices of Bitcoin and Ether reached record highs of $73,787.1 and $4,049.66 respectively in Q1 2024, but contrary to the market sentiment, VC financing activities were more conservative in Q1, and only ushered in large-scale investments in Q2. This phenomenon suggests that VCs tend to lag behind market sentiment in their investment decisions, and instead of investing at market highs, they prefer to enter during market pullbacks. The specific analysis is as follows:</p>
+<ol>
+<li><p><strong>Lagging nature of VC investments</strong><br>Bitcoin and ethereum reached all-time highs in Q1, but VCs did not invest heavily during this period, instead raising large amounts of capital in Q2 when market volatility increased. This may be because VCs are more focused on long-term value than short-term market volatility. market volatility in Q2 provided more attractive project valuations, prompting VCs to increase their investments in that quarter.</p>
+</li>
+<li><p><strong>Impact of market volatility on funding activity</strong><br>Bitcoin and ethereum prices fluctuated significantly in Q2, from highs of $72,799 and $<br>3980 back to lows of $56,555 and $2,791. In this market environment, investors paid more attention to the potential value of projects rather than market sentiment, especially in the Layer1 and GameFi sectors, where there was a large influx of funding, demonstrating VCs’ confidence in long-term technological breakthroughs and market potential.</p>
+</li>
+<li><p><strong>Reasons for the decrease in Q3 funding</strong><br>Market sentiment in Q3 was relatively cold, with Bitcoin price falling to $55,798 and Ether price dropping to $2,353. Combined with the funding data, the decrease in funding in Q3 may be due to investors’ cautious attitude towards short-term market volatility. Project owners received a large amount of funding in Q2, and Q3 may be a phase of project construction and technology advancement, with VCs adopting a wait-and-see attitude, waiting for further progress of these projects.</p>
+</li>
+</ol>
+<h2 id="V-Future-outlook-and-investment-recommendations"><a href="#V-Future-outlook-and-investment-recommendations" class="headerlink" title="V. Future outlook and investment recommendations"></a>V. Future outlook and investment recommendations</h2><ol>
+<li><strong>Q4 Financing Outlook</strong></li>
+</ol>
+<ul>
+<li>Looking ahead to Q4 2024, financing activities are expected to pick up, especially in AI, Layer1 and Layer2. With the release of more projects’ technical results and the gradual recovery of market sentiment, VCs may once again increase their investment in blockchain infrastructure and innovative applications. The combination of <strong>AI and blockchain</strong> is a key focus for future investment, and AI-driven decentralized application scenarios (e.g., automated decision-making for smart contracts, decentralized prediction markets, etc.) will continue to attract a large amount of capital.</li>
+<li><strong>Layer1</strong> &amp; <strong>Layer2</strong> projects will attract more long-term capital as blockchain scalability and performance improve, especially projects that have already secured funding in Q2 may demonstrate technological breakthroughs in Q4, further driving capital inflows.</li>
+<li><strong>DeFi</strong> and <strong>GameFi</strong> may see a recovery in Q4, especially if DeFi is able to launch innovative products and GameFi is able to solve key issues such as user retention, the market’s investment enthusiasm will return.</li>
+</ul>
+<ol start="2">
+<li><strong>Investment Recommendations</strong></li>
+</ol>
+<ul>
+<li>For VCs and investors, here are some suggestions for future investment strategies: Focus on projects driven by technological innovation: the core value of blockchain lies in technological innovation, especially in the application scenarios combining the underlying architecture (Layer1 and Layer2) and AI, investors should focus on projects with breakthrough technological capabilities and clear business models.</li>
+<li>Seize opportunities in market volatility at the right time: Historical data shows that market volatility often provides VCs with opportunities to enter at low prices. Investors can assess the valuation of high-potential projects during market sentiment downturns valuations and obtain higher returns through strategic investments.</li>
+<li>Diversified portfolio: The blockchain industry has a variety of technology paths, and investors should adopt a diversified investment strategy covering multiple sectors from AI to DeFi, Layer1, Layer2, etc. to diversify risks and capture more market opportunities.</li>
+</ul>
+<h2 id="VI-Conclusion"><a href="#VI-Conclusion" class="headerlink" title="VI. Conclusion"></a>VI. Conclusion</h2><p>Financing and market trends in the blockchain industry in 2024 exhibit a combination of technology innovation-driven and volatile market sentiment. Despite the decrease in financing activities in Q3, this is only a short-term adjustment period, and with the acceleration of technological progress in Q4, financing activities are expected to be active again. In the future, innovations in the fields of AI, Layer1 and Layer2 will become the hotspots for capital to chase, and the recovery of DeFi and GameFi is also expected to drive the further development of the industry. The investment behavior of VCs demonstrates long-term confidence in technology, and they are able to seize the opportunities in market fluctuations to realize the effective allocation of capital.</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Jask Don</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://wyt.icu/2024/10/09/Blockchain-Market-Research-Report-Q1-Q3-2024/">https://wyt.icu/2024/10/09/Blockchain-Market-Research-Report-Q1-Q3-2024/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span><strong>Every dog has his day </strong></span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/web3/"># web3</a>
+                    
+                        <a href="/tags/blockchain/"># blockchain</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/2024/08/07/Blockchain-and-Logistics/">Blockchain and Logistics</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Jask Don | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
+</html>
