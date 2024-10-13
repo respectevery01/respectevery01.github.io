@@ -92,20 +92,6 @@
 
   
   <url>
-    <loc>https://wyt.icu/tags/CET-4/</loc>
-    <lastmod>2024-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wyt.icu/tags/Essay/</loc>
-    <lastmod>2024-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wyt.icu/tags/web3/</loc>
     <lastmod>2024-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -126,17 +112,31 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://wyt.icu/categories/English-learning/</loc>
+    <loc>https://wyt.icu/tags/CET-4/</loc>
     <lastmod>2024-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
+    <loc>https://wyt.icu/tags/Essay/</loc>
+    <lastmod>2024-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
     <loc>https://wyt.icu/categories/Web3/</loc>
+    <lastmod>2024-10-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wyt.icu/categories/English-learning/</loc>
     <lastmod>2024-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
